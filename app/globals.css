@@ -1,0 +1,111 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+  background-color: rgb(2, 2, 46);
+}
+.wallpaper{
+  color: aliceblue;
+  font-size: 4rem;
+  text-align: center;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+
+}
+.my-name{
+  text-align: center;
+  font-size: 10rem;
+  color: aliceblue;
+  padding:0px;
+  margin: 0px;
+}
+.my-dis{
+  text-align: center;
+  font-size: 5rem;
+  color: aliceblue;
+  padding:0px;
+  margin: 0px;
+}
+.contact{
+  color: aliceblue;
+  
+}
+img{
+  color: aliceblue;
+}
+a{
+  color: aliceblue;
+  display: flex;
+  flex-direction: column;
+}
+.name{
+  display: flex;
+  justify-content: space-between;
+  margin: 5px;
+  background-color: transparent;
+  color: black;
+  position: relative;
+  bottom: 40px;
+}
+h2{
+  color:black;
+  display: inline;
+  background-color: white;
+  border-radius: 6px;
+  font-weight: 500;
+  padding-right:  5px;
+  padding-left: 5px;
+}
+.image{
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+.image img{
+  width: 350px;
+  height: 275px;
+}
+.image a {
+  color: white;
+  border: 0.5 solid black;
+  background-color: black;
+  border-radius: 4px;
+  padding: 3px;
+  font-weight: 800;
+}
+.image a svg{
+  background-color: black;
+  
+}
+.box{
+  height:320px;
+  width: 320px;
+  padding: 20px;
+  padding-bottom: 40px;
+  margin: 10px;
+  border-radius: 10px;
+  padding-bottom: 100px;
+  background-color: rgb(39, 138, 138);
+  box-shadow: 5px 5px 10px white,4px 4px 10px white;
+  
+}
+.box:hover{
+  background-color: rgb(11, 240, 99);
+  animation: animination 4s 2 ;
+}
+.seemore{
+  color: white;
+  text-align: end;
+  margin: 10px;
+  text-transform: capitalize;
+
+}
+@keyframes animination{
+  0%{
+      background-color: antiquewhite;
+  }
+  100%{
+      background-color: aqua;
+  }
+}
